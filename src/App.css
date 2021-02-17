@@ -49,3 +49,12 @@ body {
     color:whitesmoke;
     font-weight:600px;
 }
+
+.swajp {
+
+    position: fixed;
+    bottom:30px;
+    display: flex ;
+    width: 100%;
+    justify-content: space-evenly;
+}

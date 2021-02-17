@@ -4,7 +4,8 @@ import './App.css';
 import Header from './Header.js';
 import TinderKartica from './Tinderkartica.js';
 import { BrowserRouter ,Switch,Route,Link } from "react-router-dom";
-import swajp from './swajp.js';
+import Swajp from './Swajp.js';
+
 
 function App() {
   return (
@@ -19,11 +20,9 @@ function App() {
               </Route>
               <Route path="/">
                 <TinderKartica />
+                <Swajp />
               </Route>
-            </Switch>
-           
-
-
+            </Switch>       
 
       </BrowserRouter>
     
